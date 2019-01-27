@@ -24,7 +24,7 @@ class App extends Component {
   //API call thats receiving term from our SearchBar
   handleTermChange(term) {
     //adding term to the API call and replace method to swap all the spaces with '+'
-    const url = `http://api.giphy.com/v1/gifs/search?q=${term.replace(/\s/g, '+')}&api_key=mpyBfV1wY3bkM6yzxJO0jtsLZhclW6SX&limit=20&lang=en`;
+    const url = `https://crossorigin.me/http://api.giphy.com/v1/gifs/search?q=${term.replace(/\s/g, '+')}&api_key=mpyBfV1wY3bkM6yzxJO0jtsLZhclW6SX&limit=20&lang=en`;
     //get request with SuperAgent to the above URL
     request.get(url, (err,res) => {
       this.setState({gifs: res.body.data})
