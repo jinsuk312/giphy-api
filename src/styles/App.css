@@ -31,4 +31,15 @@ input {
     text-align: center;
     width: 50%;
 }
-
+.app-title{
+    display:block;
+    font-size: 2em;
+    height:100px;
+    margin: 0 auto;
+    text-align:center;
+    width:75%;
+}
+.input-description{
+    font-size: 1em;
+    text-align:center;
+}

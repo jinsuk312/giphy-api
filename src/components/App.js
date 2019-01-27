@@ -37,6 +37,7 @@ class App extends Component {
       //App is handling an array of gifs. SearchBar tracks the search term entered in the input, giflist handles where the data goes 
       <div className="App">
         <h1 className="app-title">Giphy API</h1>
+        <h6 className="input-description">Enter Search Query below for GIPHYS!</h6>
         <SearchBar onTermChange={term => this.handleTermChange(term)} />
         <GifList gifs={this.state.gifs} />
       </div>
