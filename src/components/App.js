@@ -16,13 +16,11 @@ class App extends Component {
     //initializing state, letting app know it needs to be aware to track data  
     this.state= {
       gifs:[],
-      selectedGif: null,
-      modalIsOpen: false
     };
     //tells app that the this of handleTermChange is bound to App, not onTermChange
     this.handleTermChange = this.handleTermChange.bind(this);
   }
- 
+
   //API call thats receiving term from our SearchBar
   handleTermChange(term) {
     //adding term to the API call and replace method to swap all the spaces with '+'
