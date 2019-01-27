@@ -4,7 +4,7 @@ import React from 'react';
 class SearchBar extends React.Component {
     // added a constructor method, runs autmatically when class is initialized
     constructor(){
-        // called super method method that it lets us access this.state
+        // called super method that lets us access this.state
         super();
         //initializing state, letting app know it needs to be aware of our search term
         this.state = {term: ''}
