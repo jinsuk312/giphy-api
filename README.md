@@ -5,7 +5,8 @@ About: A gif search engine, that is displaying rated "g" gifs. When user clicks 
 Technologies: React(create-react-app), superagent(npm package that handles AJAX requests), giphy API
 
 How to run the program
-1.)clone this project
-2.)npm i
-3.)npm start
+<br>
+1.)clone this project<br>
+2.)npm i<br>
+3.)npm start<br>
 4.)use the input bar to show gifs via giphy api
