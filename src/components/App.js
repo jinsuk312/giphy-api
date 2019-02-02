@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 // CSS
 import '../styles/App.css';
-// importing SearchBar,GiftLit class
+// importing SearchBar,GifList class
 import SearchBar from './SearchBar';
 import GifList from './GifList';
 // importing request to handle HTTP request
